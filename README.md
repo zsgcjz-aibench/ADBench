@@ -45,3 +45,4 @@ The paper discusses the importance of correctly diagnosing Alzheimer's disease (
 │  │  │  ├──train & test & val
      
 ```
+- We provide the preprocessing code for the data in the 'resources/' directory.
