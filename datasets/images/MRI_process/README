@@ -1,0 +1,4 @@
+Image preprocessing please follow the following steps:
+1.pipeline_mul.py
+2.nifti_to_numpy.py
+3.biasFieldCorrection.py
