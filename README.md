@@ -47,7 +47,7 @@ The paper discusses the importance of correctly diagnosing Alzheimer's disease (
 ```
 - We provide the preprocessing code for the data in the `resources/`
 - The image data is registered using [FSL](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/), and the template used is "MNI152_T1_1mm_brain"
-- Here are some [sample data](https://drive.google.com/file/d/1PiTzGQEVV7NO4nPaHeQv61WgDxoD76nL/view?usp=share_link) provided.
+- We have provided some sample data that can be downloaded from [Google Drive].(https://drive.google.com/file/d/1PiTzGQEVV7NO4nPaHeQv61WgDxoD76nL/view?usp=share_link) provided.
 
 <span id="2"></span>
 ### Usage
