@@ -32,14 +32,8 @@ The paper discusses the importance of correctly diagnosing Alzheimer's disease (
 ```
 ├── datasets
 │  ├── images
-│  │  ├── Open_clinical_setting
-│  │  │  ├──train & test & val
-│  │  ├── Data_silos_clinical_setting
-│  │  │  ├──train & test & val
-│  │  ├── Closed_clinical_settig
-│  │  │  ├──train & test & val
-│  │  ├── Real_world_clinical_setting
-│  │  │  ├──train & test & val
+│  │  ├── NIFTI
+│  │  ├── NPY
 |  ├── csv
 │  │  ├── Open_clinical_setting
 │  │  │  ├──train & test & val
