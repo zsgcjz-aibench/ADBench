@@ -30,33 +30,24 @@ The paper discusses the importance of correctly diagnosing Alzheimer's disease (
 - The data should be organized like:
 
 ```
-datasets/
-    images/
-        Open_clinical_setting/
-        		...
-				    val/
-		    Data_silos_clinical_setting/
-        		...
-				    val/
-		    Closed_clinical_settig/
-        		...
-				    val/
-        Real_world_clinical_setting/
-        		...
-				    val/
-
-    csv/
-        Open_clinical_setting/
-        		...
-				    val/
-		    Data_silos_clinical_setting/
-        		...
-				    val/
-		    Closed_clinical_settig/
-        		...
-				    val/
-        Real_world_clinical_setting/
-        		...
-				    val/
+├── datasets
+│  ├── images
+│  │  ├── Open_clinical_setting
+│  │  │  ├──train & test & val
+│  │  ├── Data_silos_clinical_setting
+│  │  │  ├──train & test & val
+│  │  ├── Closed_clinical_settig
+│  │  │  ├──train & test & val
+│  │  ├── Real_world_clinical_setting
+│  │  │  ├──train & test & val
+|  ├── csv
+│  │  ├── Open_clinical_setting
+│  │  │  ├──train & test & val
+│  │  ├── Data_silos_clinical_setting
+│  │  │  ├──train & test & val
+│  │  ├── Closed_clinical_settig
+│  │  │  ├──train & test & val
+│  │  ├── Real_world_clinical_setting
+│  │  │  ├──train & test & val
      
 ```
