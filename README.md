@@ -88,3 +88,8 @@ Distributed under the MIT License. See LICENSE for more information.
 
 <span id="6"></span>
 ### Citation
+If you use this work for your research, please cite our paper:
+```
+paper cite here
+     
+```
