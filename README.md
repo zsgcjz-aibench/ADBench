@@ -9,3 +9,10 @@ The paper discusses the importance of correctly diagnosing Alzheimer's disease (
 ![image](https://github.com/Only-Child/ADBench/blob/main/resources/framwork_1.png)
 
 ### Tab of Content
+- [Demo](#6)
+- [Installation](#1)
+- [Data Preparation](#2)
+- [Usage](#3)
+  - [Training](#5)
+  - [Evaluation](#4)
+  <!-- - [Visualization](#5) -->
