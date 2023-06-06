@@ -16,3 +16,10 @@ The paper discusses the importance of correctly diagnosing Alzheimer's disease (
   - [Training](#5)
   - [Evaluation](#4)
   <!-- - [Visualization](#5) -->
+  
+  ### Demo
+- Please clone our environment using the following command:
+  ```
+  pip install -r requirements.txt
+  ```
+<span id="1"></span>
