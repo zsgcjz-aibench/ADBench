@@ -25,3 +25,4 @@ The paper discusses the importance of correctly diagnosing Alzheimer's disease (
 <span id="1"></span>
 
 ### Data Preparation
+- All of the data involving AD used in this work are obtained from Alzheimer’s Disease Neuroimaging Initiative (ADNI) [database](http://adni.loni.usc.edu). ADNI is licensed under ADNI Data Sharing and Publications Committee (DPC) according to [link](https://adni.loni.usc.edu/data-samples/access-data/). The personally identifiable information of all subjects in ADNI has been removed, and access can be applied directly through [link](https://ida.loni.usc.edu/explore/jsp/register/register.jsp).
