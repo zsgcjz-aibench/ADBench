@@ -14,6 +14,7 @@ The paper discusses the importance of correctly diagnosing Alzheimer's disease (
 - [Usage](#2)
   - [Training](#3)
   - [Evaluation](#4)
+- [License](#7)
 - [Citation](#6)
   <!-- - [Visualization](#5) -->
   
@@ -68,6 +69,10 @@ python ###.py
      
 ```
 - #### Evaluation
+
+<span id="7"></span>
+### License
+Distributed under the MIT License. See LICENSE for more information.
 
 <span id="6"></span>
 ### Citation
