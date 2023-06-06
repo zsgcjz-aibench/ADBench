@@ -46,3 +46,4 @@ The paper discusses the importance of correctly diagnosing Alzheimer's disease (
      
 ```
 - We provide the preprocessing code for the data in the `resources/`
+- Here are some sample [data](https://drive.google.com/file/d/1PiTzGQEVV7NO4nPaHeQv61WgDxoD76nL/view?usp=share_link) provided.
