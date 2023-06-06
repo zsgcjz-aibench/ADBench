@@ -53,4 +53,11 @@ The paper discusses the importance of correctly diagnosing Alzheimer's disease (
 ### Usage
 <span id="3"></span>
 - #### Training
+Each scene contains multiple models, and the execution commands for each model may be different. Listed below are just some of them.
+
+```
+## For Model 1
+python ###.py
+     
+```
 - #### Evaluation
