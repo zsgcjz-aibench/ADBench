@@ -9,20 +9,54 @@ The paper discusses the importance of correctly diagnosing Alzheimer's disease (
 ![image](https://github.com/Only-Child/ADBench/blob/main/resources/framwork_1.png)
 
 ### Tab of Content
-- [Demo](#6)
+- [Demo](#5)
 - [Data Preparation](#1)
-- [Data Preparation](#2)
-- [Usage](#3)
-  - [Training](#5)
+- [Usage](#2)
+  - [Training](#3)
   - [Evaluation](#4)
   <!-- - [Visualization](#5) -->
   
+<span id="5"></span>
 ### Demo
 - Please clone our environment using the following command:
   ```
   pip install -r requirements.txt
   ```
-<span id="1"></span>
 
+
+<span id="1"></span>
 ### Data Preparation
 - All of the data involving AD used in this work are obtained from Alzheimer’s Disease Neuroimaging Initiative (ADNI) [database](http://adni.loni.usc.edu). ADNI is licensed under ADNI Data Sharing and Publications Committee (DPC) according to [link](https://adni.loni.usc.edu/data-samples/access-data/). The personally identifiable information of all subjects in ADNI has been removed, and access can be applied directly through [link](https://ida.loni.usc.edu/explore/jsp/register/register.jsp).
+- The data should be organized like:
+
+```
+datasets/
+    images/
+        Open_clinical_setting/
+        		...
+				    val/
+		    Data_silos_clinical_setting/
+        		...
+				    val/
+		    Closed_clinical_settig/
+        		...
+				    val/
+        Real_world_clinical_setting/
+        		...
+				    val/
+
+    csv/
+        Open_clinical_setting/
+        		...
+				    val/
+		    Data_silos_clinical_setting/
+        		...
+				    val/
+		    Closed_clinical_settig/
+        		...
+				    val/
+        Real_world_clinical_setting/
+        		...
+				    val/
+     
+```
