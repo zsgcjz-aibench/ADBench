@@ -62,7 +62,7 @@ Please contact us at `huangyunyou@gxnu.edu.cn`. We will reply the issue within 1
 <span id="2"></span>
 ### Usage
 <span id="3"></span>
-- #### Training
+- #### Training & Tesing
 Each scene contains multiple models, and the execution commands for each model may be different. Listed below are just some of them.
 
 #  Real-world Clinical Setting
