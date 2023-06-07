@@ -65,13 +65,13 @@ Please contact us at `huangyunyou@gxnu.edu.cn`. We will reply the issue within 1
 - #### Training
 Each scene contains multiple models, and the execution commands for each model may be different. Listed below are just some of them.
 
-```
-## For Real-world Clinical Setting
+#  Real-world Clinical Setting
 
 Step 1: Adjust the file path in the code according to the data storage location.
 
 Step 2: Dataset Preparation.
 
+```
 python3 scale.py
 
 python3 biospecimen.py
@@ -94,13 +94,24 @@ python3 create_data_set_2v.py
 python3 create_data_set_8v.py 
      
 ```
-
+Step 3: Traning and tesing model of [[42]]
 
 ```
-## For Model 2
-python ###.py
-     
+# Save the model ae_ac_0.0005_32_210v.h5 for evaluation of [[6]] and [[39]].
+python3 OpenClinicalAI.py
+
 ```
+Step 4: Traning and tesing model of [[6]] and [[39]]
+
+```
+python3 Thr_OpenMax.py
+
+python3 Thr_OpenMAX_Performance.py
+
+```
+
+
+
 - #### Evaluation
 <span id="4"></span>
 ```
