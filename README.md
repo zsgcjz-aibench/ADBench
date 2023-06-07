@@ -55,7 +55,7 @@ Please contact us at `huangyunyou@gxnu.edu.cn`. We will reply the issue within 1
 │  │  │  ├──train & test & val
      
 ```
-- We provide the preprocessing code for the data in the `resources/images/MRI_process/`
+- We provide the preprocessing code for the data in the `datasets/images/MRI_process/`
 - The image data is registered using [FSL](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/), and the template used is "`MNI152_T1_1mm_brain`"
 - We have provided some sample data（[.npy](https://drive.google.com/file/d/12lEgIub6i65M4QEDNRKp4eItgxZQmHPd/view?usp=sharing) and [.nii](https://drive.google.com/file/d/1ucTAlAEm-J3qLoReLWLMwvJWdKNl_iBe/view?usp=sharing)） that can be downloaded from Google Drive
 
