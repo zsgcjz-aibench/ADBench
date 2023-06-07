@@ -15,7 +15,7 @@ Please contact us at `huangyunyou@gxnu.edu.cn`. We will reply the issue within 1
 - [Demo](#5)
 - [Data Preparation](#1)
 - [Usage](#2)
-  - [Training](#3)
+  - [Training&Tesing](#3)
   - [Evaluation](#4)
 - [License](#7)
 - [Citation](#6)
@@ -94,14 +94,14 @@ python3 create_data_set_2v.py
 python3 create_data_set_8v.py 
      
 ```
-Step 3: Traning and tesing model of [[42]]
+Step 3: Traning and tesing model of [42]
 
 ```
-# Save the model ae_ac_0.0005_32_210v.h5 for evaluation of [[6]] and [[39]].
+# Save the model ae_ac_0.0005_32_210v.h5 for evaluation of [6] and [39].
 python3 OpenClinicalAI.py
 
 ```
-Step 4: Traning and tesing model of [[6]] and [[39]]
+Step 4: Traning and tesing model of [6] and [39]
 
 ```
 python3 Thr_OpenMax.py
