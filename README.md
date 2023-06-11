@@ -6,7 +6,7 @@ This is the official implementation of our conference paper : "ADBench: A Multi-
 ## Introduction
 
 The **ADBench** is a comprehensive benchmark for Alzheimer’s disease (AD) diagnosis, which contains 10 diverse datasets, covers four clinical settings: a closed setting for classification, a data silos setting for federated learning (FL), an open setting for open set identification, and a real-world setting for implementation, and systematic evaluation with highlight the challenges in the development of AD diagnostic models. 
-![image](https://github.com/Only-Child/ADBench/blob/main/resources/framwork_1.png)
+![image](https://github.com/zsgcjz-aibench/ADBench/blob/main/images/Figure1.jpg)
 
 ## Create issues from this repository
 Please contact us at `huangyunyou@gxnu.edu.cn`. We will reply the issue within 14 days.
