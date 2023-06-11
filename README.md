@@ -15,13 +15,14 @@ Please contact us at `huangyunyou@gxnu.edu.cn`. We will reply the issue within 1
 All the experimental data is from [[Alzheimer’s Disease Neuroimaging Initiative (ADNI)]](https://adni.loni.usc.edu/). Researchers are able to download experimental data through the [[Image & Data Archive]](https://ida.loni.usc.edu/login.jsp). Since ADNI prohibits distributing data, researchers need to independently download Study Data, Genetic Data, MRI and PET in ADNI before May 2, 2019.
 
 ## 4. Environment
-Ubuntu 20.04.3 LTS  
-Python 3.8.10  
-CUDA 11.1  
-cuDNN 8  
-NVIDIA GeForce RTX 3090 GPU  
-Intel(R) Core(TM) i9-10900X CPU @ 3.70GHz
-
+    ```
+    Ubuntu 20.04.3 LTS  
+    Python 3.8.10  
+    CUDA 11.1  
+    cuDNN 8  
+    NVIDIA GeForce RTX 3090 GPU  
+    Intel(R) Core(TM) i9-10900X CPU @ 3.70GHz
+    ```
 ## 5. Real-world Clinical Setting
 
 ### 
