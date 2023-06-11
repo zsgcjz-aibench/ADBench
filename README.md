@@ -46,7 +46,9 @@ All the experimental data is from [[Alzheimer’s Disease Neuroimaging Initiativ
         # Crate test set of SMC(smc_test.tfrecord).
         python3 create_data_set_8v.py 
 
-- Step 3: Traning and tesing model of [[42]]
+- Step 3: Traning and tesing model of [[42]](https://www.nature.com/articles/s41467-022-31037-5).
+        # Save the model ae_ac_0.0005_32_210v.h5 for evaluation of [[6]](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Bendale_Towards_Open_Set_CVPR_2016_paper.pdf) and [[39]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Perera_Generative-Discriminative_Feature_Representations_for_Open-Set_Recognition_CVPR_2020_paper.pdf).
+        python3 OpenClinicalAI.py
 
 ### 
 - [Demo](#5)
