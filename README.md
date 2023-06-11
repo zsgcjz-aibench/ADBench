@@ -81,10 +81,21 @@ python3 Thr_OpenMAX_Performance.py
 
 ```
 
+- Step 3: Train, validate and test models.
+
+```
+
+```
+
 ## 8. Closed Setting
 - Step 1: Adjust the file path in the code according to the data storage location.
 
 - Step 2: Dataset Preparation.
+
+```
+
+```
+- Step 3: Train, validate and test models.
 
 ```
 
@@ -98,7 +109,11 @@ python3 Thr_OpenMAX_Performance.py
 ```
 
 ```
+- Step 3: Train, validate and test models.
 
+```
+
+```
 
 ### 
 - [Demo](#5)
