@@ -26,25 +26,25 @@ All the experimental data is from [[Alzheimer’s Disease Neuroimaging Initiativ
 - Step 1: Adjust the file path in the code according to the data storage location.
 
 - Step 2: Dataset Preparation.
-    python3 scale.py
+        python3 scale.py
 
-    python3 biospecimen.py
+        python3 biospecimen.py
 
-    python3 genetic_preprocess_csv.py
+        python3 genetic_preprocess_csv.py
 
-    python3 genetic_preprocess.py
+        python3 genetic_preprocess.py
 
-    python3 dcm2nii.py
+        python3 dcm2nii.py
 
-    sudo chmod 777 dcm2nii.sh
+        sudo chmod 777 dcm2nii.sh
 
-    ./dcm2nii.sh
+        ./dcm2nii.sh
 
-    Crate training set(ac_train.tfrecord), validation set(ac_eval.tfrecord), and test set (ac_test.tfrecord and mci_test.tfrecord) of AD, CN and MCI.
-    python3 create_data_set_2v.py 
+        # Crate training set(ac_train.tfrecord), validation set(ac_eval.tfrecord), and test set (ac_test.tfrecord and mci_test.tfrecord) of AD, CN and MCI.
+        python3 create_data_set_2v.py 
 
-    Crate test set of SMC(smc_test.tfrecord).
-    python3 create_data_set_8v.py 
+        # Crate test set of SMC(smc_test.tfrecord).
+        python3 create_data_set_8v.py 
 
 - Step 3: Traning and tesing model of [[42]]
 
