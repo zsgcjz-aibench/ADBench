@@ -101,10 +101,16 @@ python DSA-3D-CNN_openmax.py
 ```
     # Same as data preprocessing in Open Clinical Setting.
 ```
-- Step 3: Train, validate and test models.
-
+- Step 3: Train, validate a model.
+ The modelname.py contains the interfaces for initializing, training, testing, saving, loading the model. See below for a basic example usage.
 ```
-python .py
+# random
+python DSA-3D-CNN.py
+```
+- Step 4: Evaluate a model. See below for a basic example usage.
+```
+# random 
+python test_DSA-3D-CNN.py
 ```
 
 ## 8. Closed Setting
