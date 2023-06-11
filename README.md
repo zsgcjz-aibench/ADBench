@@ -90,7 +90,7 @@ python biasFieldCorrection.py
 
     The modelname.py contains the interfaces for initializing, training, validating, testing, saving, loading the model. See below for a basic example usage.
 ```
-# Need to change to the corresponding model name
+# Need to adjust to the corresponding model name
 python DSA-3D-CNN_openmax.py 
 ```
 
@@ -104,12 +104,14 @@ python DSA-3D-CNN_openmax.py
 - Step 3: Train, validate a model.
  The modelname.py contains the interfaces for initializing, training, testing, saving, loading the model. See below for a basic example usage.
 ```
-# random
+# randomly divide the training set into multiple disjoint clients.
+# Need to adjust to the corresponding model name
 python DSA-3D-CNN.py
 ```
 - Step 4: Evaluate a model. See below for a basic example usage.
 ```
-# random 
+# randomly divide the training set into multiple disjoint clients. 
+# Need to adjust to the corresponding model name
 python test_DSA-3D-CNN.py
 ```
 
@@ -120,10 +122,18 @@ python test_DSA-3D-CNN.py
 ``` 
     # Same as data preprocessing in Open Clinical Setting.
 ``` 
-- Step 3: Train, validate and test models.
-
+- Step 3: Train, validate a model.
+ The modelname.py contains the interfaces for initializing, training, testing, saving, loading the model. See below for a basic example usage.
 ```
-python .py
+# randomly divide the training set into multiple disjoint clients.
+# Need to adjust to the corresponding model name
+python DSA-3D-CNN.py
+```
+- Step 4: Evaluate a model. See below for a basic example usage.
+```
+# randomly divide the training set into multiple disjoint clients. 
+# Need to adjust to the corresponding model name
+python test_DSA-3D-CNN.py
 ```
 
 ## 9. License
