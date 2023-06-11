@@ -11,7 +11,7 @@ The **ADBench** is a comprehensive benchmark for Alzheimer’s disease (AD) diag
 ## Create issues from this repository
 Please contact us at `huangyunyou@gxnu.edu.cn`. We will reply the issue within 14 days.
 
-### Tab of Content
+### 
 - [Demo](#5)
 - [Data Preparation](#1)
 - [Usage](#2)
