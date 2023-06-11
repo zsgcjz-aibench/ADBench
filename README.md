@@ -71,9 +71,9 @@ python3 Thr_OpenMAX_Performance.py
 ```
 
 bash pipeline.sh folder_of_raw_nifti/ imagename.nii output_folder_for_processed_data/
-```
 
-    To register all data in a folder, you can use the python script 
+```
+   To register all data in a folder, you can use the python script 
     
 ```
 python pipeline_mul.py
