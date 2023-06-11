@@ -78,7 +78,7 @@ python pipeline_mul.py
 ```
 clip out the intensity outliers and Bias field correction
 ```
-python normalization_and_clip.py
+python nifti_to_numpy.py
 
 python biasFieldCorrection.py
 ```
