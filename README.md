@@ -120,10 +120,5 @@ python biasFieldCorrection.py
 
 ## 9. License
 - Our codes were released with MIT License. 
-
-## 10. Citation
-If you use this work for your research, please cite our paper:
 ```
-paper cite here
-     
 ```
