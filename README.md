@@ -57,13 +57,23 @@ python3 create_data_set_8v.py
 python3 OpenClinicalAI.py
 ```
 - Step 4: Traning and tesing model of [[6]](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Bendale_Towards_Open_Set_CVPR_2016_paper.pdf) and [[39]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Perera_Generative-Discriminative_Feature_Representations_for_Open-Set_Recognition_CVPR_2020_paper.pdf).
-
 ```
 python3 Thr_OpenMax.py
 
 python3 Thr_OpenMAX_Performance.py
-
 ```
+## 6. Open Clinical Setting
+- Step 1: Adjust the file path in the code according to the data storage location.
+
+## 7. Data Silos Clinical Setting
+- Step 1: Adjust the file path in the code according to the data storage location.
+
+## 8. Closed Setting
+- Step 1: Adjust the file path in the code according to the data storage location.
+
+## 9. License
+- Our codes were released with MIT License. 
+
 
 ### 
 - [Demo](#5)
