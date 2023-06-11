@@ -15,36 +15,41 @@ Please contact us at `huangyunyou@gxnu.edu.cn`. We will reply the issue within 1
 All the experimental data is from [[Alzheimer’s Disease Neuroimaging Initiative (ADNI)]](https://adni.loni.usc.edu/). Researchers are able to download experimental data through the [[Image & Data Archive]](https://ida.loni.usc.edu/login.jsp). Since ADNI prohibits distributing data, researchers need to independently download Study Data, Genetic Data, MRI and PET in ADNI before May 2, 2019.
 
 ## 4. Environment
-    Ubuntu 20.04.3 LTS  
-    Python 3.8.10  
-    CUDA 11.1  
-    cuDNN 8  
-    NVIDIA GeForce RTX 3090 GPU  
-    Intel(R) Core(TM) i9-10900X CPU @ 3.70GHz
+```
+Ubuntu 20.04.3 LTS  
+Python 3.8.10  
+CUDA 11.1  
+cuDNN 8  
+NVIDIA GeForce RTX 3090 GPU  
+Intel(R) Core(TM) i9-10900X CPU @ 3.70GHz
+```
     
 ## 5. Real-world Clinical Setting
 - Step 1: Adjust the file path in the code according to the data storage location.
 
 - Step 2: Dataset Preparation.
-        python3 scale.py
 
-        python3 biospecimen.py
+```
+python3 scale.py
 
-        python3 genetic_preprocess_csv.py
+python3 biospecimen.py
 
-        python3 genetic_preprocess.py
+python3 genetic_preprocess_csv.py
 
-        python3 dcm2nii.py
+python3 genetic_preprocess.py
 
-        sudo chmod 777 dcm2nii.sh
+python3 dcm2nii.py
 
-        ./dcm2nii.sh
+sudo chmod 777 dcm2nii.sh
 
-        # Crate training set(ac_train.tfrecord), validation set(ac_eval.tfrecord), and test set (ac_test.tfrecord and mci_test.tfrecord) of AD, CN and MCI.
-        python3 create_data_set_2v.py 
+./dcm2nii.sh
 
-        # Crate test set of SMC(smc_test.tfrecord).
-        python3 create_data_set_8v.py 
+# Crate training set(ac_train.tfrecord), validation set(ac_eval.tfrecord), and test set (ac_test.tfrecord and mci_test.tfrecord) of AD, CN and MCI.
+python3 create_data_set_2v.py 
+
+# Crate test set of SMC(smc_test.tfrecord).
+python3 create_data_set_8v.py
+```
 
 - Step 3: Traning and tesing model of [[42]](https://www.nature.com/articles/s41467-022-31037-5).
 
