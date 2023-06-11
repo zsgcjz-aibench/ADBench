@@ -97,7 +97,7 @@ python biasFieldCorrection.py
 
 - Step 2: Dataset Preparation.
 ```
-    Same as data preprocessing in Open Clinical Setting.
+    # Same as data preprocessing in Open Clinical Setting.
 ```
 - Step 3: Train, validate and test models.
 
@@ -110,7 +110,7 @@ python biasFieldCorrection.py
 
 - Step 2: Dataset Preparation.
 ``` 
-    Same as data preprocessing in Open Clinical Setting.
+    # Same as data preprocessing in Open Clinical Setting.
 ``` 
 - Step 3: Train, validate and test models.
 
