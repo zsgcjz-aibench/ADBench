@@ -89,7 +89,7 @@ python biasFieldCorrection.py
 - Step 3: Train, validate and test models.
 
 ```
-
+python .py
 ```
 
 ## 7. Data Silos Clinical Setting
@@ -102,7 +102,7 @@ python biasFieldCorrection.py
 - Step 3: Train, validate and test models.
 
 ```
-
+python .py
 ```
 
 ## 8. Closed Setting
@@ -115,10 +115,8 @@ python biasFieldCorrection.py
 - Step 3: Train, validate and test models.
 
 ```
-
+python .py
 ```
 
 ## 9. License
 - Our codes were released with MIT License. 
-```
-```
