@@ -70,7 +70,11 @@ python3 Thr_OpenMAX_Performance.py
 ```
 
 ```
+- Step 3: Train, validate and test models.
 
+```
+
+```
 
 ## 7. Data Silos Clinical Setting
 - Step 1: Adjust the file path in the code according to the data storage location.
@@ -104,16 +108,6 @@ python3 Thr_OpenMAX_Performance.py
 ## 9. License
 - Our codes were released with MIT License. 
 
-- Step 2: Dataset Preparation.
-
-```
-
-```
-- Step 3: Train, validate and test models.
-
-```
-
-```
 
 ### 
 - [Demo](#5)
