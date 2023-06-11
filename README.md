@@ -86,10 +86,14 @@ python nifti_to_numpy.py
 python biasFieldCorrection.py
 ```
 
-- Step 3: Train, validate and test models.
+- Step 3: Train and validate models.
 
+The .py contains the interfaces for initializing, training, saving, loading the model. See below for a basic example usage.
 ```
 python .py
+```
+- Step 4: evaluate a model.
+```
 ```
 
 ## 7. Data Silos Clinical Setting
