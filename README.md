@@ -102,17 +102,17 @@ python DSA-3D-CNN_openmax.py
     # Same as data preprocessing in Open Clinical Setting.
 ```
 - Step 3: Train, validate a model.
- The modelname.py contains the interfaces for initializing, training, testing, saving, loading the model. See below for a basic example usage.
+ The train_modelname.py contains the interfaces for initializing, training, testing, saving the model. See below for a basic example usage.
 ```
 # randomly divide the training set into multiple disjoint clients.
 # Need to adjust to the corresponding model name
-python DSA-3D-CNN.py
+python train_DSA.py
 ```
 - Step 4: Evaluate a model. See below for a basic example usage.
 ```
 # randomly divide the training set into multiple disjoint clients. 
 # Need to adjust to the corresponding model name
-python test_DSA-3D-CNN.py
+python test_model_DSA.py
 ```
 
 ## 8. Closed Setting
@@ -123,17 +123,17 @@ python test_DSA-3D-CNN.py
     # Same as data preprocessing in Open Clinical Setting.
 ``` 
 - Step 3: Train, validate a model.
- The modelname.py contains the interfaces for initializing, training, testing, saving, loading the model. See below for a basic example usage.
+ The modelname.py contains the interfaces for initializing, training, testing, saving the model. See below for a basic example usage.
 ```
-# randomly divide the training set into multiple disjoint clients.
+# randomly divide the training set, validation set and test set.
 # Need to adjust to the corresponding model name
-python DSA-3D-CNN.py
+python train_DSA.py
 ```
 - Step 4: Evaluate a model. See below for a basic example usage.
 ```
 # randomly divide the training set into multiple disjoint clients. 
 # Need to adjust to the corresponding model name
-python test_DSA-3D-CNN.py
+python test_model_DSA.py
 ```
 
 ## 9. License
