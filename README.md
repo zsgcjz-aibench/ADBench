@@ -40,10 +40,10 @@ All the experimental data is from [[Alzheimer’s Disease Neuroimaging Initiativ
 
     ./dcm2nii.sh
 
-## Crate training set(ac_train.tfrecord), validation set(ac_eval.tfrecord), and test set (ac_test.tfrecord and mci_test.tfrecord) of AD, CN and MCI.
+    Crate training set(ac_train.tfrecord), validation set(ac_eval.tfrecord), and test set (ac_test.tfrecord and mci_test.tfrecord) of AD, CN and MCI.
     python3 create_data_set_2v.py 
 
-    #Crate test set of SMC(smc_test.tfrecord).
+    Crate test set of SMC(smc_test.tfrecord).
     python3 create_data_set_8v.py 
 
 - Step 3: Traning and tesing model of [[42]]
