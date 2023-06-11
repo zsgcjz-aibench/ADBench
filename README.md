@@ -66,9 +66,8 @@ python3 Thr_OpenMAX_Performance.py
 - Step 1: Adjust the file path in the code according to the data storage location.
 
 - Step 2: Dataset Preparation.
-
+We provided this bash pipeline (datasets/images/MRI_preprocess/pipeline.sh) to perform this step. To run the registration.sh on a single case:
 ```
-# We provided this bash pipeline (datasets/images/MRI_preprocess/pipeline.sh) to perform this step. To run the registration.sh on a single case:
 bash pipeline.sh folder_of_raw_nifti/ imagename.nii output_folder_for_processed_data/
 
 ```
