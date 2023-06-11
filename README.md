@@ -65,7 +65,7 @@ python3 Thr_OpenMAX_Performance.py
 ## 6. Open Clinical Setting
 - Step 1: Adjust the file path in the code according to the data storage location.
 
-- Step 2: Dataset Preparation.
+- Step 2: Dataset Preparation(need FSL to be installed).
     
     We provided this bash pipeline (datasets/images/MRI_preprocess/pipeline.sh) to perform this step. To run the registration.sh on a single case:
 ```
@@ -78,9 +78,9 @@ python pipeline_mul.py
 ```
 clip out the intensity outliers and Bias field correction
 ```
-python
+python normalization_and_clip.py
 
-python
+python biasFieldCorrection.py
 ```
 
 - Step 3: Train, validate and test models.
