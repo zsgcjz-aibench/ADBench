@@ -88,9 +88,10 @@ python biasFieldCorrection.py
 
 - Step 3: Train, validate and test a model.
 
-The modelname.py contains the interfaces for initializing, training, validating, testing, saving, loading the model. See below for a basic example usage.
+    The modelname.py contains the interfaces for initializing, training, validating, testing, saving, loading the model. See below for a basic example usage.
 ```
-python DSA-3D-CNN_openmax.py # Need to change to the corresponding model name
+# Need to change to the corresponding model name
+python DSA-3D-CNN_openmax.py 
 ```
 
 ## 7. Data Silos Clinical Setting
