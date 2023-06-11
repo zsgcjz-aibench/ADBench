@@ -23,9 +23,9 @@ All the experimental data is from [[Alzheimer’s Disease Neuroimaging Initiativ
     Intel(R) Core(TM) i9-10900X CPU @ 3.70GHz
     
 ## 5. Real-world Clinical Setting
-Step 1: Adjust the file path in the code according to the data storage location.
+- [Step 1: Adjust the file path in the code according to the data storage location.]
 
-Step 2: Dataset Preparation.
+- [Step 2: Dataset Preparation.]
     python3 scale.py
 
     python3 biospecimen.py
@@ -47,7 +47,7 @@ Step 2: Dataset Preparation.
     #Crate test set of SMC(smc_test.tfrecord).
     python3 create_data_set_8v.py 
 
-Step 3: Traning and tesing model of [[42]]
+- [Step 3: Traning and tesing model of [[42]]]
 
 ### 
 - [Demo](#5)
