@@ -111,18 +111,24 @@ python DSA_openmax.py
 ```
 # randomly divide the training set into multiple disjoint clients.
 # Need to adjust to the corresponding model name
-python train_DSA.py # [] model of paper
-# python train_Dynamic.py # [] model of paper
-# python train_CNN_MLP.py # [] model of paper
-# python train_LRP.py # [] model of paper
-# python train_Vox.py # [] model of paper
-# python train_MLP_A.py # [] model of paper
+python train_CNN_MLP.py # [42] model of paper
+# python train_LRP.py # [10] model of paper
+# python train_Vox.py # [28] model of paper
+# python train_Dynamic.py # [55] model of paper
+# python train_DSA.py # [21] model of paper
+# python train_FCN.py # [41] model of paper
+# python train_MLP_A.py # [41] model of paper
 ```
 - Step 4: Evaluate a model. See below for a basic example usage.
 ```
 # randomly divide the training set into multiple disjoint clients. 
 # Need to adjust to the corresponding model name
-python test_model_DSA.py
+python test_model_CNN_MLP.py # [42] model of paper
+# python test_model_LRP.py # [10] model of paper
+# python test_model_Vox.py # [28] model of paper
+# python test_model_Dynamic.py # [55] model of paper
+# python test_model_DSA.py # [21] model of paper
+# python test_model_MLP_A.py # [41] model of paper
 ```
 
 ## 8. Closed Setting
@@ -137,24 +143,24 @@ python test_model_DSA.py
 ```
 # randomly divide the training set, validation set and test set.
 # Need to adjust to the corresponding model name
-python train_DSA.py # [] model of paper
-# python train_Dynamic.py # [] model of paper
-# python train_CNN_MLP.py # [] model of paper
-# python train_LRP.py # [] model of paper
-# python train_Vox.py # [] model of paper
-# python train_FCN.py # [] model of paper
-# python train_MLP_A.py # [] model of paper
+python train_CNN_MLP.py # [42] model of paper
+# python train_LRP.py # [10] model of paper
+# python train_Vox.py # [28] model of paper
+# python train_Dynamic.py # [55] model of paper
+# python train_DSA.py # [21] model of paper
+# python train_FCN.py # [41] model of paper
+# python train_MLP_A.py # [41] model of paper
 ```
 - Step 4: Evaluate a model. See below for a basic example usage.
 ```
 # randomly divide the training set into multiple disjoint clients. 
 # Need to adjust to the corresponding model name
-python test_model_DSA.py
-# python test_model_Dynamic.py
-# python test_model_CNN_MLP.py
-# python test_model_LRP.py
-# python test_model_Vox.py
-# python test_model_MLP_A.py
+python test_model_CNN_MLP.py # [42] model of paper
+# python test_model_LRP.py # [10] model of paper
+# python test_model_Vox.py # [28] model of paper
+# python test_model_Dynamic.py # [55] model of paper
+# python test_model_DSA.py # [21] model of paper
+# python test_model_MLP_A.py # [41] model of paper
 ```
 
 ## 9. License
