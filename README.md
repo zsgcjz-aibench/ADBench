@@ -92,6 +92,7 @@ python biasFieldCorrection.py
 ```
 # Need to adjust to the corresponding model name
 python DSA_openmax.py 
+
 # python Dynamic_openmax.py
 # python CNN_MLP_openmax.py 
 # python LRP_openmax.py
@@ -112,6 +113,7 @@ python DSA_openmax.py
 # randomly divide the training set into multiple disjoint clients.
 # Need to adjust to the corresponding model name
 python train_CNN_MLP.py # [42] model of paper
+
 # python train_LRP.py # [10] model of paper
 # python train_Vox.py # [28] model of paper
 # python train_Dynamic.py # [55] model of paper
@@ -124,6 +126,7 @@ python train_CNN_MLP.py # [42] model of paper
 # randomly divide the training set into multiple disjoint clients. 
 # Need to adjust to the corresponding model name
 python test_model_CNN_MLP.py # [42] model of paper
+
 # python test_model_LRP.py # [10] model of paper
 # python test_model_Vox.py # [28] model of paper
 # python test_model_Dynamic.py # [55] model of paper
@@ -144,6 +147,7 @@ python test_model_CNN_MLP.py # [42] model of paper
 # randomly divide the training set, validation set and test set.
 # Need to adjust to the corresponding model name
 python train_CNN_MLP.py # [42] model of paper
+
 # python train_LRP.py # [10] model of paper
 # python train_Vox.py # [28] model of paper
 # python train_Dynamic.py # [55] model of paper
@@ -156,6 +160,7 @@ python train_CNN_MLP.py # [42] model of paper
 # randomly divide the training set into multiple disjoint clients. 
 # Need to adjust to the corresponding model name
 python test_model_CNN_MLP.py # [42] model of paper
+
 # python test_model_LRP.py # [10] model of paper
 # python test_model_Vox.py # [28] model of paper
 # python test_model_Dynamic.py # [55] model of paper
