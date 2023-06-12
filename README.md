@@ -95,8 +95,8 @@ python DSA_openmax.py
 # python Dynamic_openmax.py
 # python CNN_MLP_openmax.py 
 # python LRP_openmax.py 
-# python FCN_MLP.py 
-# python CNN_MLP.py 
+# python FCN_MLP_openmax.py 
+# python CNN_MLP_openmax.py 
 ```
 
 ## 7. Data Silos Clinical Setting
