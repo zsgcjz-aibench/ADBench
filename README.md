@@ -92,6 +92,10 @@ python biasFieldCorrection.py
 ```
 # Need to adjust to the corresponding model name
 python DSA-3D-CNN_openmax.py 
+# python .py
+# python .py 
+# python .py 
+# python .py 
 ```
 
 ## 7. Data Silos Clinical Setting
