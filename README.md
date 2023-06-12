@@ -91,11 +91,12 @@ python biasFieldCorrection.py
     The modelname.py contains the interfaces for initializing, training, validating, testing, saving, loading the model. See below for a basic example usage.
 ```
 # Need to adjust to the corresponding model name
-python DSA-3D-CNN_openmax.py 
-# python Dynamic_images_Vgg11_openmax.py
+python DSA_openmax.py 
+# python Dynamic_openmax.py
+# python CNN_MLP_openmax.py 
+# python LRP_openmax.py 
+# python FCN_MLP.py 
 # python CNN_MLP.py 
-# python ADNI_Training_openmax.py 
-# python main.py 
 ```
 
 ## 7. Data Silos Clinical Setting
