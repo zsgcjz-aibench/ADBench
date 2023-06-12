@@ -94,9 +94,9 @@ python biasFieldCorrection.py
 python DSA_openmax.py 
 # python Dynamic_openmax.py
 # python CNN_MLP_openmax.py 
-# python LRP_openmax.py 
-# python FCN_MLP_openmax.py 
-# python CNN_MLP_openmax.py 
+# python LRP_openmax.py
+# python FCN_model.py
+# python MLP_openmax.py 
 ```
 
 ## 7. Data Silos Clinical Setting
@@ -111,7 +111,12 @@ python DSA_openmax.py
 ```
 # randomly divide the training set into multiple disjoint clients.
 # Need to adjust to the corresponding model name
-python train_DSA.py
+python train_DSA.py # [] model of paper
+# python train_Dynamic.py # [] model of paper
+# python train_CNN_MLP.py # [] model of paper
+# python train_LRP.py # [] model of paper
+# python train_Vox.py # [] model of paper
+# python train_MLP_A.py # [] model of paper
 ```
 - Step 4: Evaluate a model. See below for a basic example usage.
 ```
@@ -132,13 +137,24 @@ python test_model_DSA.py
 ```
 # randomly divide the training set, validation set and test set.
 # Need to adjust to the corresponding model name
-python train_DSA.py
+python train_DSA.py # [] model of paper
+# python train_Dynamic.py # [] model of paper
+# python train_CNN_MLP.py # [] model of paper
+# python train_LRP.py # [] model of paper
+# python train_Vox.py # [] model of paper
+# python train_FCN.py # [] model of paper
+# python train_MLP_A.py # [] model of paper
 ```
 - Step 4: Evaluate a model. See below for a basic example usage.
 ```
 # randomly divide the training set into multiple disjoint clients. 
 # Need to adjust to the corresponding model name
 python test_model_DSA.py
+# python test_model_Dynamic.py
+# python test_model_CNN_MLP.py
+# python test_model_LRP.py
+# python test_model_Vox.py
+# python test_model_MLP_A.py
 ```
 
 ## 9. License
