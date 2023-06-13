@@ -67,6 +67,10 @@ python3 Thr_OpenMAX_Performance.py
 - Environment
 ```
 python 3.9.13
+pandas 1.4.4
+torch 1.10.2
+path 16.6.0
+numpy 1.21.5
 ```
 - Step 1: Adjust the file path in the code according to the data storage location.
 
