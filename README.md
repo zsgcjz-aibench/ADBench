@@ -16,12 +16,9 @@ All the experimental data is from [[Alzheimer’s Disease Neuroimaging Initiativ
 
 ## 4. Environment
 ```
-Ubuntu 20.04.3 LTS  
 Python 3.8.10  
 CUDA 11.1  
 cuDNN 8  
-NVIDIA GeForce RTX 3090 GPU  
-Intel(R) Core(TM) i9-10900X CPU @ 3.70GHz
 ```
     
 ## 5. Real-world Clinical Setting
