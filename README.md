@@ -16,9 +16,14 @@ All the experimental data is from [[Alzheimer’s Disease Neuroimaging Initiativ
 
 ## 4. Environment
 ```
-Python 3.8.10  
-CUDA 11.1  
-cuDNN 8  
+NVIDIA A100
+NVIDIA  A10
+python 3.9.13
+pandas 1.4.4
+torch 1.10.2
+path 16.6.0
+numpy 1.21.5
+tqdm 4.64.1
 ```
     
 ## 5. Real-world Clinical Setting
@@ -61,15 +66,6 @@ python3 Thr_OpenMAX_Performance.py
 ```
 ## 6. Open Clinical Setting
 
-- Environment
-```
-python 3.9.13
-pandas 1.4.4
-torch 1.10.2
-path 16.6.0
-numpy 1.21.5
-tqdm 4.64.1
-```
 - Step 1: Adjust the file path in the code according to the data storage location.
 
 - Step 2: Dataset Preparation(need FSL to be installed).
