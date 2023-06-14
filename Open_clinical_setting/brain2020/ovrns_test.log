@@ -1,0 +1,19 @@
+nohup: 忽略输入
+##################################################
+{'imbalan_ratio': 1.0, 'fil_num': 100, 'drop_rate': 0.5, 'batch_size': 8, 'balanced': 0, 'roi_threshold': 0.6, 'roi_count': 200, 'choice': 'count', 'learning_rate': 0.0001, 'train_epochs': 3000}
+Traceback (most recent call last):
+  File "mlp_classifiers.py", line 255, in <module>
+    mlp_C(config["mlp_C"])
+  File "mlp_classifiers.py", line 191, in mlp_C
+    mlp_C_train(exp_idx, 1, accu, config)
+  File "mlp_classifiers.py", line 73, in mlp_C_train
+    accu_test = mlp.test(i)[2:]
+  File "/home/lxs/brain2020-master/model_wrapper.py", line 469, in test
+    self.model.load_state_dict(torch.load('{}{}_{}.pth'.format(self.checkpoint_dir, self.model_name, self.optimal_epoch)))
+  File "/home/lxs/anaconda3/envs/py37/lib/python3.7/site-packages/torch/serialization.py", line 771, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/lxs/anaconda3/envs/py37/lib/python3.7/site-packages/torch/serialization.py", line 270, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/lxs/anaconda3/envs/py37/lib/python3.7/site-packages/torch/serialization.py", line 251, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/home/lxs/brain2020-master/checkpoint_dir/mlp_C_BN_exp0/mlp_C_BN_843.pth'
