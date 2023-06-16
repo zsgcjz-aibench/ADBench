@@ -3605,7 +3605,7 @@ def get_methond_count(methond, y_label, nb_output):
 train_strategy = 1
 
 # Train the model to classify AD and CN
-if train_strategy==1:
+def train_AD_CN():
     # 指定日志目录
     log_dir = "/data/huangyunyou/ODMLCS_MODEL/logs/" + datetime.datetime.now().strftime("%Y%m%d") + '/' + str(
         acm_learning_rate) + '_' + str(acm_batch_size) + '_' + model_version + '/'
@@ -3615,7 +3615,8 @@ if train_strategy==1:
     eval_loss_file_path = log_dir + 'ae_ac_eval_loss.txt'
     eval_auc_file_path = log_dir + 'ae_ac_eval_auc.txt'
 
-    AE_model = HierarchicalOpenNet.HierarchicalOpenNet(is_continue_train=True,save_path='/data/huangyunyou/ODMLCS_MODEL/save_models/ae_ac_0.0005_32_210v')
+    AE_model = HierarchicalOpenNet.HierarchicalOpenNet(is_continue_train=True,
+                                                       save_path='/data/huangyunyou/ODMLCS_MODEL/save_models/ae_ac_0.0005_32_210v')
 
     ae_train_count = 0
 
@@ -3634,7 +3635,8 @@ if train_strategy==1:
         data = tf.reshape(data, [batch, -1, 2090])
         tf.keras.backend.set_learning_phase(True)
         # data=pad_sequences(data, maxlen=steps, dtype='float', value=-4.0)
-        hist = AE_model.train_on_batch_customer(data, [get_one_hot([ad.numpy(),cn.numpy()],batch),data], return_dict=True)
+        hist = AE_model.train_on_batch_customer(data, [get_one_hot([ad.numpy(), cn.numpy()], batch), data],
+                                                return_dict=True)
         with open(train_loss_file_path, 'a') as f:
             f.write(str(hist['loss']) + ',' + str(ae_train_count) + '\n')
         with summary_writer.as_default():  # 将loss写入TensorBoard
@@ -3650,7 +3652,9 @@ if train_strategy==1:
             # data_va = pad_sequences(data_va, maxlen=steps, dtype='float', value=-4.0)
             tf.keras.backend.set_learning_phase(False)
 
-            hist_va = AE_model.test_on_batch_customer(data_va, [get_one_hot([ad_va.numpy(),cn_va.numpy()],batch),data_va], return_dict=True)
+            hist_va = AE_model.test_on_batch_customer(data_va,
+                                                      [get_one_hot([ad_va.numpy(), cn_va.numpy()], batch), data_va],
+                                                      return_dict=True)
             with open(eval_loss_file_path, 'a') as f:
                 f.write(str(hist_va['loss']) + ',' + str(ae_train_count) + '\n')
             with summary_writer.as_default():  # 将loss写入TensorBoard
@@ -3692,8 +3696,13 @@ if train_strategy==1:
             if ae_early_flag:
                 break
 
+
+#if train_strategy==1:
+
+
 # Obtain the abnormal patterns of subject
-elif train_strategy == 2:
+
+def get_ABP():
     ac_tr = []
     ac_va = []
     ac_te = []
@@ -3829,8 +3838,12 @@ elif train_strategy == 2:
     drawn_distance_cluster(c_ads, np.zeros(c_ads.shape), core_abnor_value, 28, True,
                            '/data/huangyunyou/ODMLCS_MODEL/save_mid_open_set/5-95_abnor_value_Muti_adcn_mcismc_')
 
+#elif train_strategy == 2:
+
+
 # Train the model to classify AD and CN in open clinical setting
-elif train_strategy == 3:
+
+def train_AD_CN_open():
     ac_tr = []
     ac_va = []
     ac_te = []
@@ -4099,8 +4112,12 @@ elif train_strategy == 3:
     # print('train_stage   ')
     print('evidence ', statistics_transform)
 
+#elif train_strategy == 3:
+
+
 # Train the model to select the exams for subject
-elif train_strategy == 4:
+
+def train_s_exams():
     methond_prediction_model = get_methond_model_4v()
     methond_train_model = get_trainable_model_methond(methond_prediction_model, loss_type='M_BCE',
                                                       methond_list=[43967, 38837, 24215, 26966, 34630, 14586, 3425,
@@ -4275,8 +4292,12 @@ elif train_strategy == 4:
             if methond_early_flag:
                 break
 
+#elif train_strategy == 4:
+
+
 # Test the model
-elif train_strategy == 5:
+
+def test_model():
     ac_tr = []
     ac_va = []
     ac_te = []
@@ -4497,3 +4518,12 @@ elif train_strategy == 5:
     plt.show()
     pain(m_rid, m_viscode, m_methond, m_ys_ture)
 
+
+#elif train_strategy == 5:
+
+
+train_AD_CN()
+get_ABP()
+train_AD_CN_open()
+train_s_exams()
+test_model()
