@@ -20,7 +20,7 @@ NVIDIA A100
 NVIDIA  A10
 python 3.9.13
 pandas 1.4.4
-tensorflow 2.11.0
+tensorflow 2.2.0
 torch 1.10.2
 path 16.6.0
 numpy 1.21.5
