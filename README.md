@@ -8,8 +8,6 @@ This is the official implementation of our conference paper : "ADBench: A Multi-
 The **ADBench** is a comprehensive benchmark for Alzheimer’s disease (AD) diagnosis, which contains 10 diverse datasets, covers four clinical settings: a closed setting for classification, a data silos setting for federated learning (FL), an open setting for open set identification, and a real-world setting for implementation, and systematic evaluation with highlight the challenges in the development of AD diagnostic models. 
 ![image](https://github.com/zsgcjz-aibench/ADBench/blob/main/images/Figure1.jpg)
 
-<!--## 2. Create issues from this repository
-Please contact us at `huangyunyou@gxnu.edu.cn`. We will reply the issue within 14 days.-->
 
 ## 2. Data Sources 
 All the experimental data is from [[Alzheimer’s Disease Neuroimaging Initiative (ADNI)]](https://adni.loni.usc.edu/). Researchers are able to download experimental data through the [[Image & Data Archive]](https://ida.loni.usc.edu/login.jsp). Since ADNI prohibits distributing data, researchers need to independently download Study Data, Genetic Data, MRI and PET in ADNI before May 2, 2019.
